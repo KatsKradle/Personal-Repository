@@ -1,0 +1,100 @@
+<!-- Volunteer Information --> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Rotary Gardens</title>
+		<link rel="shortcut icon" href="../images/icon.ico">
+			<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="../js/jquery.slicknav.min.js"></script>
+		<script type="../text/javascript">
+		$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<img src="../images/logo1.png" alt="Company logo" height="80">
+			<h2>Welcome (Insert script here)</h2>
+			<h3>Making gardens great again!</h3>
+		</header>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul> 
+				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="index.html">Discover</a></li>
+				<li><a href="index.html">Login</a></li>
+				<li><a href="index.html">Support</a>
+					<ul>
+						<li><a href="../forms/paris.html">Contact Us</a></li>
+						<li><a href="../forms/london.html">About Us</a></li>
+						<li><a href="../forms/rome.html">Add1</a></li>
+						<li><a href="../forms/capeTown.html">Add2</a></li>
+					</ul>
+				</li>
+				<li><a href="index.html">Add</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
+				<h2>Add/Edit Volunteers (Admin Page)</h2>
+
+				<p>Enter volunteer information if new volunteer or edit volunteer information if changes are necessary.</p>
+
+				<h1>Volunteer Information</h1>
+
+				<article>
+					<div class="align-fields">
+					<label for="username">Username:</label><br>
+					<input type="text" name="username" id="txtUsername" autofocus><br>
+					
+					<label for="firstName">First Name:</label><br>
+					<input type="text" name="firstname" id="txtFirstname"><br>
+					
+					<label for="lastName">Last Name:</label><br>
+					<input type="text" name="lastname" id="txtLastname"><br>
+					
+					<label for="phone">Phone Number:</label><br>
+					<input type="text" name="phone" id="txtPhone"><br>
+					
+					<label for="email">Email:</label><br>
+					<input type="text" name="email" id="txtEmail"><br>
+					
+					<label for="street">Street:</label><br>
+					<input type="text" name="street" id="txtStreet"><br>
+					
+					<label for="city">City:</label><br>
+					<input type="text" name="city" id="txtCity"><br>
+					
+					<label for="zip">Zip:</label><br>
+					<input type="text" name="zip" id="txtZip"><br>
+					
+					<input type="submit" name="Add" id="btnAdd" value="Add" style="width:15%;">
+					<input type="submit" name="Edit" id="btnEdit" value="Edit" style="width:15%">
+				</article>
+			</section>
+
+
+			<aside>
+				<h2>Volunteer List Goes Here:</h2>
+				<div>
+					<h3><a href="####.html">Populated Data</a></h3>
+				</div>
+			</aside>
+
+		</main>
+		<footer>
+			<p>&copy;2018, Rotary Gardens and Company, Janesvile, WI 53545</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+/*sytles for the html*/
+html { margin: 0; padding:0;}
+
+body{
+	font-family: "segoe ui", Arial, Helvetica, sans-serif;
+	background-color: #242424;
+	padding: 0;
+	margin:0px;
+	/*font-size: 300%;*/
+}
+header{
+	font-size: 300%;
+	padding-bottom: 0;
+	margin: 0 0 0 0;
+	/*margin-bottom: 1em;*/
+	background-color: #59663b;
+	height: auto;
+	padding-top: 0.1em;
+}
+h1{
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-left: 1em;
+}
+h2{
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-left: 1.35em;
+	padding-bottom: 1em;
+}
+label{
+	float: left;
+	padding-left: 1em;
+	text-align: right;
+	color: #FFFFFF;
+}
+input{
+	margin-left: 1em;
+	margin-bottom: .5em;
+	width: 25em;
+	border-width:0;
+}
+input[id*=Button]{
+	color: black;
+	width: 25em;
+}
